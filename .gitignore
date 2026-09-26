@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+.DS_Store
+downloaded_files/
+*.lock
