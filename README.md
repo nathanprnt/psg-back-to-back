@@ -67,7 +67,7 @@ n'en méritaient : 13 réels pour 16,3 attendus en 2024-25, 14 pour 15,6 en
 2025-26. Toute la sur-conversion s'est concentrée sur les matchs à
 élimination directe. L'ironie : la seule phase de poules chanceuse de la
 période est celle de Galtier (14 points pour 9,4 attendus, un scénario à
-7 %) — l'équipe qui volait ses poules méritait sa sortie, celles qui
+7 %) : l'équipe qui volait ses poules méritait sa sortie, celles qui
 méritaient leurs poules ont surperformé leurs printemps.
 
 Et le threepeat manqué : dans 84 % des mondes, le PSG jouait la finale
@@ -83,8 +83,8 @@ grands soirs : deux demi-finales gagnées à 27 et 28 %, un huitième
 retourné contre le cours du jeu, une finale arrachée aux tirs au but.
 
 Mais renversons la question une seconde. Un monde sur 171, ce n'est pas
-le chiffre d'une équipe chanceuse — la chance ne repasse pas deux
-printemps de suite aux mêmes endroits. C'est le chiffre d'une équipe qui
+le chiffre d'une équipe chanceuse. La chance ne repasse pas deux
+printemps de suite aux mêmes endroits, c'est le chiffre d'une équipe qui
 a produit assez, pendant quatre ans, pour se retrouver chaque année dans
 les matchs qui comptent, et qui, arrivée là, a mis les buts que les xG ne
 promettaient pas. Les modèles mesurent les occasions. Ils ne mesurent pas
@@ -94,13 +94,13 @@ précisément ce que ce projet permet de localiser : on sait maintenant où
 regarder.
 
 Le PSG n'a pas eu de la chance. Il a été là où la chance se donne, deux
-années de suite. Un monde sur 171 — et c'est le nôtre.
+années de suite. Un monde sur 171, et c'est le nôtre.
 
 ## Les limites
 
 - On rejoue le parcours réel : une autre phase de ligue aurait donné un
   autre classement, d'autres adversaires, un autre arbre. Simuler ça
-  demanderait de modéliser les 35 autres équipes — hors périmètre.
+  demanderait de modéliser les 35 autres équipes (hors périmètre).
 - Les tirs au but sont modélisés en pièce équilibrée (50/50 : hypothèse simpliste,
   les serviettes des gardiens nous prouvent l'inverse). Les
   prolongations utilisent les intensités du match retour ramenées à
@@ -128,9 +128,9 @@ local). Les xG sont saisis dans le notebook, relevés à la main.
 ## Sources
 
 Structure des matchs : FBref (fbref.com), via la bibliothèque soccerdata.
-xG : Sofascore (sofascore.com), relevés manuellement match par match —
-FBref ne publie plus de statistiques avancées depuis janvier 2026, d'où
-la collecte manuelle. Données mises en cache localement, non
+xG : Sofascore (sofascore.com), relevés manuellement match par match
+(FBref ne publie plus de statistiques avancées depuis janvier 2026, d'où
+la collecte manuelle). Données mises en cache localement, non
 redistribuées dans ce dépôt.
 Simulation : numpy, loi de Poisson, 10 000 tirages par match, graine
 fixée pour la reproductibilité.
